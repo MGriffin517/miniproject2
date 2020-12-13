@@ -1,12 +1,12 @@
-/* 
+/**********************************************************************************************************************
     Michael Griffin, Wyatt Rhodes
     8ELET 1102
     Discount Calculator
     v 1.1
     2020-12-11
-
-    Gets an item number and a quantity of that item from the user and calculates the origanl cost of their order as well as the cost with the discount of buying in bulk.
-*/
+    Gets an item number and a quantity of that item from the user and calculates the origanl cost of their order
+    as well as the cost with the discount of buying in bulk.
+***********************************************************************************************************************/
 
 #include <stdio.h>
 
@@ -41,7 +41,16 @@ printf("Enter item number here: ");
     {
         if(itemNumber > 3)
         {
-            printf("Enter an item number that is listed: ");
+            printf("Please enter an item number that is listed: ");
+            scanf("%d", &itemNumber);
+        }
+    }
+    
+    for(itemNumber; itemNumber < 0;)
+    {
+        if(itemNumber < 0)
+        {
+            printf("Please enter an item number that is listed: ");
             scanf("%d", &itemNumber);
         }
     }
