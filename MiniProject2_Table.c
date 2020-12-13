@@ -96,24 +96,24 @@ else if(itemNumber == 1 && itemQuantity > 0 && itemQuantity <= 299)
 {
     float totalPrice = (itemQuantity * capacitorPrice);
     float discountPrice = totalPrice - (totalPrice * .025);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Capacitor price originally: %f\n", totalPrice);
+    printf("Capacitor price after discount: %f", discountPrice);
 }
 
 else if(itemNumber == 1 && itemQuantity <= 499)
 {
     float totalPrice = (itemQuantity * capacitorPrice);
     float discountPrice = totalPrice - (totalPrice * .05);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Capacitor price originally: %f\n", totalPrice);
+    printf("Capacitor price after discount: %f", discountPrice);
 }
 
 else if(itemNumber == 1 && itemQuantity >= 500)
 {
     float totalPrice = (itemQuantity * capacitorPrice);
     float discountPrice = totalPrice - (totalPrice * .1);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Capacitor price originally: %f\n", totalPrice);
+    printf("Capacitor price after discount: %f", discountPrice);
 }
 /******************************************************************************************************
 Calculations for transistor
@@ -122,24 +122,24 @@ else if(itemNumber == 2 && itemQuantity > 0 && itemQuantity <= 299)
 {
     float totalPrice = (itemQuantity * transistorPrice);
     float discountPrice = totalPrice - (totalPrice * .025);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Transistor price originally: %f\n", totalPrice);
+    printf("Transistor price after discount: %f", discountPrice);
 }
 
 else if(itemNumber == 2 && itemQuantity <= 499)
 {
     float totalPrice = (itemQuantity * transistorPrice);
     float discountPrice = totalPrice - (totalPrice * .05);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Transistor price originally: %f\n", totalPrice);
+    printf("Transistor price after discount: %f", discountPrice);
 }
 
 else if(itemNumber == 2 && itemQuantity >= 500)
 {
     float totalPrice = (itemQuantity * transistorPrice);
     float discountPrice = totalPrice - (totalPrice * .1);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Transistor price originally: %f\n", totalPrice);
+    printf("Transistor price after discount: %f", discountPrice);
 }
 /******************************************************************************************************
 Calculations for integrated circuits
@@ -148,23 +148,23 @@ else if(itemNumber == 3 && itemQuantity > 0 && itemQuantity <= 299)
 {
     float totalPrice = (itemQuantity * icPrice);
     float discountPrice = totalPrice - (totalPrice * .025);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Integrated Circuits price originally: %f\n", totalPrice);
+    printf("Integrated Circuits price after discount: %f", discountPrice);
 }
 
 else if(itemNumber == 3 && itemQuantity <= 499)
 {
     float totalPrice = (itemQuantity * icPrice);
     float discountPrice = totalPrice - (totalPrice * .05);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Integrated Circuits price originally: %f\n", totalPrice);
+    printf("Integrated Circuits price after discount: %f", discountPrice);
 }
 else if(itemNumber == 3 && itemQuantity >= 500)
 {
     float totalPrice = (itemQuantity * icPrice);
     float discountPrice = totalPrice - (totalPrice * .1);
-    printf("Resistor price originally: %f\n", totalPrice);
-    printf("Resistor price after discount: %f", discountPrice);
+    printf("Integrated Circuits price originally: %f\n", totalPrice);
+    printf("Integrated Circuits price after discount: %f", discountPrice);
 }
     return 0;
 }
